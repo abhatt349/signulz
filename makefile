@@ -1,8 +1,8 @@
 all: signals.c
-      	gcc signals.c
+	gcc signals.c
 run: all
-      	./a.out
+	./a.out
 clean:
-      	rm -f *.out
-      	rm -f *~
-      	rm -f *.o
+	rm -f *.out
+	rm -f *~
+	rm -f *.o
